@@ -13,3 +13,22 @@ Para imprimir el contenido de una variable también utilizamos el comando echo:
 echo $num;
  */
 ?>
+
+<?php
+  echo "Ejercicio 5";
+  echo "<br>";
+  $num=rand(1,100);
+
+  echo "El número Randomico es: ", $num;
+
+  echo "<br>";
+
+  if ($num<=50)
+  {
+    echo "El número randomico es menor o igual a 50.";
+  }
+  else
+  {
+    echo "El número randomico es mayor a 50.";  
+  }
+?>
